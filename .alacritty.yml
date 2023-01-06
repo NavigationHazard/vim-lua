@@ -2,46 +2,37 @@ font:
   normal:
     family: OperatorMono Nerd Font
     style: Light 
-
   bold:
     family: OperatorMono Nerd Font
-    style: Medium 
 
   italic:
     family: OperatorMono Nerd Font
-    style: Italic
+    style: Light Italic
 
   bold_italic:
     family: OperatorMono Nerd Font
-    style: Bold Italic
 
-  size: 18
+  size: 26
   offset:
     x: 0
-    y: 2
+    y: 0
 
 
-shell:
-  program: /bin/zsh
-  args:
-    - -l
-    - -c
-    - "tmux attach || tmux"
 
 key_bindings:
   - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
 
 
 window:
-  opacity: 0.9
+  opacity: 0.97
 
   title: Alacritty
 schemes:
   ### Doom One ###
   DoomOne: &DoomOne
     primary:
-      background: '#131619'
-      foreground: '#bbc2cf'
+      background: '#141414'
+      foreground: '#F5F5F5'
     bright:
-      blue:    '#3071db'
+      blue:    '#81a2be'
 colors: *DoomOne
